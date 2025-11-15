@@ -1,0 +1,187 @@
+body {
+    background-color: #1D1D1D;
+    color: rgb(226, 226, 226);
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+header li a {
+    justify-content: center;
+    font-size: 60px;
+    display: flex;
+    color: rgb(226, 226, 226);
+    flex-direction: row;
+    text-decoration: none;
+}
+
+nav ul li a {
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+nav {
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    background-color: #ececec;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+}
+
+footer ul {
+    justify-content: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+article {
+    margin: 20px 0px;
+}
+
+.spanVerde {
+    color: rgb(46, 204, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 0.2em rgba(39, 174, 96, 0.4);
+}
+
+.spanAmarelo {
+    color: rgb(241, 196, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 0.2em rgba(243, 156, 18, 0.4);
+}
+
+.social-icons li a {
+    font-size: 40px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #292929;
+}
+
+.social-icons li:nth-child(1) a:hover {
+    transform: scale(1.2) translateY(-5px);
+    color: #25d366;
+}
+
+.social-icons li:nth-child(2) a:hover {
+    transform: scale(1.2) translateY(-5px);
+    color: #010409;
+}
+
+.social-icons li:nth-child(3) a:hover {
+    transform: scale(1.2) translateY(-5px);
+    color: #0A66C2;
+}
+
+.social-icons li:nth-child(4) a:hover {
+    transform: scale(1.2) translateY(-5px);
+    color: #FF0033;
+}
+
+.social-icons i {
+    font-size: 48px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #F8F9FA;
+}
+
+.mainArticle {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.cardText {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+    box-shadow: rgba(255, 255, 255, 0.089) 0px 7px 29px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    border-radius: 5px;
+    color: rgb(226, 226, 226);
+    background-color: rgba(49, 49, 49, 0.925);
+    padding: 15px;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.profilePicture {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.274);
+    overflow: hidden;
+}
+
+.NavBarContent {
+    display: flex;
+    background-color: #ececec;
+}
+
+.NavBarContent ul {
+    padding: 0px !important;
+}
+
+.NavBarContent ul li a {
+    color: rgb(46, 46, 46);
+}
+
+.TitleContainer {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.card {
+    transition: all 0.3s;
+    margin: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
