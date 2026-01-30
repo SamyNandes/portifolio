@@ -87,7 +87,7 @@ const Contact = () => {
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -4 }}
               whileTap={{ scale: 0.98 }}
-              href="https://www.linkedin.com/in/samyra-nandes/"
+              href="https://www.linkedin.com/in/samyra-fernandes/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-6 py-4 bg-secondary rounded-xl transition-colors group"
@@ -103,7 +103,7 @@ const Contact = () => {
               variants={itemVariants}
               whileHover={{ scale: 1.05, y: -4 }}
               whileTap={{ scale: 0.98 }}
-              href="mailto:contato@samyra.dev"
+              href="mailto:samyrafernandes19@gmail.com"
               className="flex items-center gap-3 px-6 py-4 bg-secondary rounded-xl transition-colors group"
             >
               <Mail
